@@ -5,7 +5,8 @@ By fbsd9lul@hunger.hu
 
 How to Exploit!
 
-**1° Check the kernel version**\n
+**1° Check the kernel version**
+
 uname -a
 
 **2° Transfer this file to target**
